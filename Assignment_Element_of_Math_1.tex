@@ -1,0 +1,178 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1.25in]{geometry}
+\usepackage{amsmath, amssymb}
+\begin{document}
+
+\begin{center}
+
+{\Huge Assignment: 01}\linebreak 
+\\*[1mm]
+{\LARGE Submitted By: Monotosh Kumar Das Chandan\linebreak Metriculation Number: 1559606}
+
+\end{center}
+\section*{Question 1}
+$
+$$\mbox{\Large $M=\lbrace \alpha,3,\gamma \rbrace,  N=\lbrace\blacksquare,\gamma,\ast, 0 \rbrace,  K=\lbrace\alpha, \lbrace \alpha \rbrace, M\rbrace$}$$
+%\\*[mm]
+%{\huge Q1:}
+\\*[5mm]
+$$ \mbox{\Large $1. M \cap N = \lbrace \gamma\rbrace $ } $$
+\\*[5mm]
+$$ \mbox{\Large $2. M \cap K = \lbrace \alpha\rbrace $ } $$
+\\*[5mm]
+$$ \mbox{\Large $3. P(M)\cap K $ } $$
+\\*[2mm]
+$$\mbox{\large $ \mid M \mid = 3, P(M) = 2^\vert M\vert \Rightarrow 2^3\Rightarrow 8$}$$
+\\*[1mm]
+$$ \mbox{\large $P(M) = \lbrace\lbrace\alpha, 3, \gamma\rbrace,\lbrace \alpha, 3\rbrace,\lbrace\alpha, \gamma\rbrace,\lbrace3, \gamma\rbrace,\lbrace\alpha\rbrace,\lbrace\gamma\rbrace,
+\lbrace3\rbrace,\emptyset\rbrace\rbrace$ } $$
+\\*[2mm]
+$$ \mbox{\Large $P(M)\cap K = \lbrace\lbrace\alpha\rbrace,M \rbrace$ } $$
+\\*[5mm]
+$$ \mbox{\Large $4. M\setminus K = \lbrace 3, \gamma\rbrace$ } $$
+\\*[5mm]
+$$ \mbox{\Large $5. N \cup k = \lbrace \blacksquare, \gamma, \ast, 0, \alpha, \lbrace \alpha\rbrace, M  \rbrace$ } $$
+$
+\section*{Question 2}
+$
+$$
+\mbox{\Large $ prove:  A \Delta B = (A \cup B)\cap \overline{(A\cap B)}$} 
+$$
+\\*[5mm]
+$$
+\mbox{\large $ A \Delta B = (A \cup B)\cap \overline{(A\cap B)}$}
+$$
+\\*[5mm]
+$$
+\mbox{\large $ = (A \cap \overline{(A \cap B))} \cup (B \cap \overline{(A\cap B))}$}
+$\hspace{20pt} \textbf{Distribution Low} $
+$$
+\\*[5mm]
+$$
+\mbox{\large $ = (A \cap (\overline{A}\cup \overline{B})\cup (B \cap (\overline{A}\cup \overline{B}))$}
+$\hspace{20pt} \textbf{De Morgan's Low}$
+$$
+\\*[5mm]
+$$
+\mbox{\large $ = ((A \cap \overline{A})\cup(A \cap \overline{B})\cup(B \cap \overline{A})\cup(B \cap \overline{B}))$}
+$$
+\\*[5mm]
+$$
+\mbox{\large $ = (\emptyset \cup (A \cap \overline{B})) \cup ((B \cap \overline{A})\cup \emptyset)$}
+$\hspace{20pt} \textbf{Identity Low}$
+$$
+\\*[5mm]
+$$
+\mbox{\large $ = (A \cap \overline{B}) \cup(B \cap \overline{A})$}
+$\hspace{20pt}\textbf{[Proved]}$
+$$
+$
+\section*{Question 3}
+$
+$$
+\mbox{\Large $ 1. (4+5i)(4-5i)$}
+$$
+\\*[5mm]
+$$
+\mbox{\large $= 16 - 20i + 20i - 25i^2$}
+$$
+\\*[5mm]
+$$
+\mbox{\large $= 16 + 25 $}
+$$
+\\*[5mm]
+$$
+\mbox{\large $= 41 $}
+$\hspace{20pt}\textbf{(Answer)}$
+$$
+\\*[10mm]
+$$
+\mbox{\Large $ 2. \frac{2 + 3i}{4 + 5i}$}
+$$
+\\*[5mm]
+$$
+\mbox{\large $= \frac{(2 + 3i) (4 - 5i)}{(4 + 5i)(4 - 5i)} $}
+$$
+\\*[5mm]
+$$
+\mbox{\large $= \frac{8 -10i + 12i - 15i^2}{16 - 20i + 20i - 25i^2 } $}
+$$
+\\*[5mm]
+$$
+\mbox{\large $= \frac{8 + 2i + 15}{16 + 25 } $}
+$$
+\\*[5mm]
+$$
+\mbox{\large $= \frac{23 + 2i}{41} $}
+$$
+\\*[5mm]
+$$
+\mbox{\large $= \frac{23}{41} + \frac{2i}{41} $}
+$\hspace{20pt}\textbf{(Answer)}$
+$$
+\\*[10mm]
+$$
+\mbox{\Large $ 3. \sqrt{16b} + \sqrt{3a - 12a}$}
+$$
+\\*[5mm]
+$$
+\mbox{\large $= \sqrt{16b} + \sqrt{- 9a}$}
+$$
+\\*[5mm]
+$$
+\mbox{\large $= 4\sqrt{b} + \sqrt{-1 * 9a} $}
+$$
+\\*[5mm]
+$$
+\mbox{\large $= 4\sqrt{b} + 3i\sqrt{a} $}
+$$
+\\*[5mm]
+$$
+\mbox{\large $= 4b^\frac{1}{2} + 3ia^\frac{1}{2} $}
+$\hspace{20pt}\textbf{(Answer)}$
+$$
+$
+\section*{Question 4}
+$
+$$
+\mbox{\Large $ prove:  f(A) \cap f(B)= f(A \cap B) $}
+$$
+\\*[5mm]
+$$
+\mbox{\large $ \text{Lets take,}  y \epsilon  f(A) \cap f(B)$}
+$$
+\\*[5mm]
+$$
+\mbox{\large $ So:  y \epsilon  f(A) \text{and }  y \epsilon f(B)$}
+$$
+\\*[5mm]
+$$
+\mbox{\large $ \text{Since,}  y \epsilon  f(A)\text{ } \exists a\epsilon A \text{, Such that }  y = f(A)$}
+$$
+\\*[5mm]
+$$
+\mbox{\large $ \hspace{25pt} y \epsilon  f(B)\text{ } \exists b\epsilon B \text{, Such that }  y = f(B)$}
+$$
+\\*[5mm]
+$$
+\mbox{\large $ \text{So, } f(a) = f(b)$}
+$$
+\\*[5mm]
+$$
+\mbox{\large $ \text{Since f is injective, } a = b,\hspace{10pt}  a \epsilon A \cap B $}
+$$
+\\*[5mm]
+$$
+\mbox{\large $ \hspace{50pt} y = f(a) \epsilon f(A \cap B) $}
+$$
+\\*[5mm]
+$$
+\mbox{\large $ \text{This shows, } f(A) \cap f(B)\subseteq f(A \cap B) $}
+$$
+\\*[5mm]
+$$
+\mbox{\large $ \text{Therefor, } f(A) \cap f(B) = f(A \cap B) $}
+$\hspace{20pt}\textbf{(Proved)}$
+$$
+$
+\end{document}
